@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prociono&family=Quicksand:wght@300..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand';
+}
+
+.Navbar {
+  max-width: 800px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  font-family: 'Quicksand';
+}
+
+.container-fluid .text-dark{
+  font-size: 28px;
+}
+
+.container-fluid .home{
+  font-size: 20px;
+  color: #f1356d;
+}
+
+.container-fluid .new{
+  font-size: 20px;
+  color: #f1356d;
+}
+
+.container-fluid .home:hover{
+  color:#140704;
+  transition: ease .4s;
+}
+
+.container-fluid .new:hover{
+  color:#140704;
+  transition: ease .4s;
+}
+
+.container-fluid .toggle{
+  background: #fff;
+}
+.Navbar h1{
+  /* color: #f1356d; */
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.Navbar .nav-links{
+  margin-left: auto;
+}
+
+.Navbar .nav-links a{
+  text-decoration: none;
+  margin-left: 10px;
+  color: #f1356d;
+  padding: 5px;
+}
+
+.Navbar .nav-links a:last-child{
+  background: #f1356d;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.Navbar .nav-links a:last-child:hover{
+  color:#000;
+  transition: ease .4s;
+}
+
+
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.Homepage h1{
+  color: #000;
+}
+
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  cursor: pointer;
+  transition: box-shadow .2s linear;
+}
+
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-preview h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+.Blog-list button{
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #fff;
+  transition: .3s ease;
+  cursor: pointer;
+}
+
+.Blog-list button:hover{
+  background: #f1356d;
+  color: #fff;
+}
+
+.blog-preview a{
+  text-decoration: none;
+  color: #000;
+}
+
+.blog-details p{
+  margin: 9px 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.blog-details h2{
+  margin-top: 10px;
+  color: #f1356d;
+}
+
+
+.blog-details button{
+  background: #f1356d;
+  color: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 1px solid #f1356d;
+  outline: none;
+  margin-left: 5px;
+}
+
+.blog-details button:hover{
+  color:#000;
+  transition: ease .4s;
+}
+
+.create-blog{
+  max-width: 400px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.create-blog label{
+  text-align: left;
+  display: block;
+}
+
+.create-blog h2{
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #f1356d;
+}
+
+.create-blog input, textarea{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  outline: none;
+}
+
+.create-blog button{
+  background: #f1356d;
+  padding: 8px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.create-blog button:hover{
+  color:#000;
+  transition: ease .4s;
+}
+
+@media (max-width: 768px) {
+  .Navbar h1{
+    font-size: 19px;
+  }
+}
+
+.there{
+  color: yellow;
+}
+
+.there {
+  color: #333; /* Change text color to dark gray (or any color of your choice) */
+  font-family: 'Arial', sans-serif; /* Change font family */
+  font-size: 1.8rem; /* Change font size */
+  font-weight: bold; /* Make font bold */
+}
